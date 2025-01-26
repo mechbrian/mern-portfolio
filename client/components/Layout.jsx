@@ -28,7 +28,7 @@ export default function Layout() {
         </Link>{" "}
         |
         <Link to="/contact" className="nav-button">
-          Contact
+          Contact Me
         </Link>
       </nav>
       <br />
