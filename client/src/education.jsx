@@ -38,7 +38,6 @@ export default function Education() {
 
   return (
     <div className="education-container">
-      <h1 className="education-title">Education</h1>
       {educations.map((edu, i) => (
         <div className="education-item" key={i}>
           <h2 className="education-degree">{edu.degree}</h2>

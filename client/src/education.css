@@ -2,21 +2,12 @@
 
 .education-container {
     margin-top: 120px;
-    padding: 20px;
+    padding: 40px;
     padding-top: 0px;
     font-family: Arial, sans-serif;
     color: #333;
 }
 
-/* Title */
-.education-title {
-  font-size: 2.5rem;
-  color: #2a9d8f;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-/* Individual education item */
 .education-item {
   margin-bottom: 30px;
   border-bottom: 1px solid #e0e0e0;
@@ -24,9 +15,11 @@
 }
 
 .education-degree {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #264653;
+    font-size: 2rem;
+    color: #e26928;
+    text-align: left;
+    font-style: italic;
+    margin-bottom: 5px;
 }
 
 .education-timeline {
@@ -42,10 +35,9 @@
   margin: 5px 0 10px;
 }
 
-/* Highlights list */
 .education-highlights {
-  list-style-type: disc;
-  margin-left: 20px;
-  font-size: 1rem;
-  line-height: 1.6;
+    font-size: 1.25rem;
+    color: #264653;
+    text-align: left;
+    margin-bottom: 40px;
 }
