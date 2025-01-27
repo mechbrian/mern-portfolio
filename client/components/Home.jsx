@@ -15,8 +15,9 @@ export default function Home() {
 
   const buttonLinks = [
     { path: "/about", label: "About Me" },
-    { path: "/projects", label: "Projects" },    
     { path: "/education", label: "Education" },
+    { path: "/projects", label: "Projects" },    
+    { path: "/service", label: "Services" },
     { path: "/contact", label: "Contact Me" },
   ];
 

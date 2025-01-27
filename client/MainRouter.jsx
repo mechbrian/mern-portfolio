@@ -1,10 +1,11 @@
-import React from 'react';
+// import React from 'react';
 import {Route, Routes} from 'react-router-dom';
 import Home from './components/Home';
 import About from './src/about';
 import Education from './src/education';
 import Contact from './src/contact';
 import Project from './src/project';
+import Service from './src/service';
 import Layout from './components/Layout';
 
 // Routes is used as a container for defining multiple Route components
@@ -18,6 +19,7 @@ const MainRouter = () => {
             <Route path="/education" element={<Education />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/project" element={<Project />} />
+            <Route path="/service" element={<Service />} />
         </Routes>
     </div>)
 }

@@ -1,0 +1,50 @@
+/* Main container: Two-column layout */
+.services-container {
+    display: flex; /* Creates a two-column layout */
+    gap: 20px; /* Adds space between columns */
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+    padding: 20px;
+    /* font-family: Arial, sans-serif; */
+    color: #333;
+    margin-top: 100px;
+  }
+    
+  .services-list {
+    flex: 1;
+  }
+  
+  .service-group {
+    margin-bottom: 20px;
+  }
+  
+  .group-title {
+    font-size: 1.5rem;
+    color: #264653;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+  }
+  
+  .group-items {    
+    margin-left: 20px;
+  }
+  
+  .item {
+    font-size: 1rem;
+    color: #555;
+  }
+    
+  .services-images {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 15px; */
+  }
+    
+  .services-images img {        
+  height: 300px;
+  object-fit: cover; /* Ensures the image scales and crops properly */
+  }
+  
+  

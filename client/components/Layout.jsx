@@ -27,6 +27,10 @@ export default function Layout() {
           Porject
         </Link>{" "}
         |
+        <Link to="/service" className="nav-button">
+          Service
+        </Link>{" "}
+        |
         <Link to="/contact" className="nav-button">
           Contact Me
         </Link>

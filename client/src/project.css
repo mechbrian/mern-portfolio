@@ -9,7 +9,7 @@
 
 .projects-list {
   display: flex;
-  flex-direction: column;  
+  /* flex-direction: column;   */
 }
 
 .project-item {
