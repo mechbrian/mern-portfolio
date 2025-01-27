@@ -7,17 +7,11 @@
 
 .services-container {
     display: flex;
-    gap: 20px;
-    /* max-width: 1200px; */
-    /* margin: 0 auto; */
-    padding: 20px;
-    /* font-family: Arial, sans-serif; */
-    color: #333;
     margin-top: 100px;
-  }
-    
-  .services-list {
-    flex: 1;
+    margin-left: 40px;    
+    gap: 20px;
+    padding: 20px;    
+    color: #333;
   }
   
   .service-group {
@@ -35,22 +29,16 @@
   .group-items {    
     margin-left: 20px;
   }
-  
-  .item {
-    font-size: 1rem;
-    color: #555;
-  }
     
   .services-images {
     flex: 1;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* gap: 15px; */
+    grid-template-columns: repeat(3, 1fr);  
   }
     
   .services-images img {        
   height: 300px;
-  object-fit: cover; /* Ensures the image scales and crops properly */
+  object-fit: cover;
   }
   
   

@@ -8,7 +8,6 @@
 .about-container {
   display: flex;
   align-items: center;
-  max-width: 100%;
 }
 
 .about-photo img {
@@ -17,9 +16,7 @@
   margin: 30px;
 }
 
-.about-details {
-  flex: 1;
-  font-family: Arial, sans-serif;
+.about-details {     
   margin: 30px;
 }
 
@@ -27,7 +24,6 @@
   font-size: 2rem;
   color: #e26928;
   text-align: left;
-  font-style: italic;
   margin-bottom: 30px;
 }
 

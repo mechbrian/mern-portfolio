@@ -6,24 +6,20 @@
 */
 
 .education-container {
-    margin-top: 120px;
-    padding: 40px;
-    padding-top: 0px;
-    font-family: Arial, sans-serif;
+    margin-top: 90px;
+    padding: 40px;        
     color: #333;
 }
 
 .education-item {
   margin-bottom: 30px;
-  border-bottom: 1px solid #e0e0e0;
-  padding-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;  
 }
 
 .education-degree {
     font-size: 2rem;
     color: #e26928;
-    text-align: left;
-    font-style: italic;
+    text-align: left;    
     margin-bottom: 5px;
 }
 
@@ -35,9 +31,8 @@
 
 .education-school {
   font-size: 1.2rem;
-  font-style: italic;
   color: #333;
-  margin: 5px 0 10px;
+  margin: 5px 0px 10px;
 }
 
 .education-highlights {
@@ -45,4 +40,5 @@
     color: #264653;
     text-align: left;
     margin-bottom: 40px;
+    margin-left: 20px;
 }
