@@ -1,4 +1,11 @@
-import React from "react";
+/*
+  File Name: education.jsx
+  Student Name: Po-Kai Chao
+  Student ID: 301426941
+  Date: January 26, 2025  
+*/
+
+// import React from "react";
 import "./education.css";
 
 export default function Education() {

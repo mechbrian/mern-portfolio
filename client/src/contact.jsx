@@ -1,4 +1,12 @@
-import React, { useState } from "react";
+/*
+  File Name: contact.jsx
+  Student Name: Po-Kai Chao
+  Student ID: 301426941
+  Date: January 26, 2025  
+*/
+
+// import React from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Contact.css";
 

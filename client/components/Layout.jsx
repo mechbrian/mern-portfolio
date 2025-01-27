@@ -1,4 +1,11 @@
-import React from "react";
+/*
+  File Name: Layout.jsx
+  Student Name: Po-Kai Chao
+  Student ID: 301426941
+  Date: January 26, 2025  
+*/
+
+// import React from "react";
 import { Link } from "react-router-dom";
 import "./Layout.css";
 

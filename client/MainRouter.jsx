@@ -1,3 +1,10 @@
+/*
+  File Name: MainRouter.jsx
+  Student Name: Po-Kai Chao
+  Student ID: 301426941
+  Date: January 26, 2025  
+*/
+
 // import React from 'react';
 import {Route, Routes} from 'react-router-dom';
 import Home from './components/Home';

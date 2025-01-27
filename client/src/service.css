@@ -1,7 +1,13 @@
-/* Main container: Two-column layout */
+/*
+  File Name: service.css
+  Student Name: Po-Kai Chao
+  Student ID: 301426941
+  Date: January 26, 2025  
+*/
+
 .services-container {
-    display: flex; /* Creates a two-column layout */
-    gap: 20px; /* Adds space between columns */
+    display: flex;
+    gap: 20px;
     /* max-width: 1200px; */
     /* margin: 0 auto; */
     padding: 20px;

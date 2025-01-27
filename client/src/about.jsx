@@ -1,3 +1,10 @@
+/*
+  File Name: about.jsx
+  Student Name: Po-Kai Chao
+  Student ID: 301426941
+  Date: January 26, 2025  
+*/
+
 // import React from "react";
 import "./about.css";
 import mePhoto from "./assets/me.png";

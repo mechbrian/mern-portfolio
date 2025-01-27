@@ -1,3 +1,10 @@
+/*
+  File Name: Home.jsx
+  Student Name: Po-Kai Chao
+  Student ID: 301426941
+  Date: January 26, 2025  
+*/
+
 import "./Home.css";
 
 export default function Home() {

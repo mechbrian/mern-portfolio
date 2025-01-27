@@ -1,4 +1,11 @@
-import React from "react";
+/*
+  File Name: project.jsx
+  Student Name: Po-Kai Chao
+  Student ID: 301426941
+  Date: January 26, 2025  
+*/
+
+// import React from "react";
 import "./Project.css";
 import img01 from "./assets/proj01.png";
 import img02 from "./assets/proj02.png";
