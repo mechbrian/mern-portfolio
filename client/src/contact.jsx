@@ -11,7 +11,11 @@ import { useNavigate } from "react-router-dom";
 import "./Contact.css";
 
 export default function Contact() {
+
+  // useNavigate is a hook that returns the navigate function
   const navigate = useNavigate(); // For redirection to Home
+
+  // useState is a hook that returns an array with two elements
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -20,6 +24,7 @@ export default function Contact() {
     message: "",
   });
 
+  // my contact data object
   const myContact = {
     firstName: "Po-Kai (Brian)",
     lastName: "Chao",
@@ -27,6 +32,7 @@ export default function Contact() {
     email: "pchao8@my.centennialcollege.ca",
   };
 
+  // handleChange function to update the form data
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
@@ -37,6 +43,7 @@ export default function Contact() {
     }));
   };
 
+  // handleSubmit function to submit the form data
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form Data Submitted:", formData);
@@ -44,7 +51,11 @@ export default function Contact() {
   };
 
   return (
+
+    // main body of the contact page
     <div className="contact-container">
+
+      {/*my contact information section */}
       <div className="contact-info">
         <h2>Contact Information</h2>
         <p>
@@ -59,8 +70,11 @@ export default function Contact() {
         </p>
       </div>
 
+      {/* form section */}
       <form className="contact-form" onSubmit={handleSubmit}>
         <h2>Send Me a Message</h2>
+
+        {/* first name section */}
         <div className="form-group">
           <label>First Name:</label>
           <input
@@ -71,6 +85,8 @@ export default function Contact() {
             required
           />
         </div>
+
+        {/* last name section */}
         <div className="form-group">
           <label>Last Name:</label>
           <input
@@ -81,6 +97,8 @@ export default function Contact() {
             required
           />
         </div>
+
+        {/* contact number section */}
         <div className="form-group">
           <label>Contact Number:</label>
           <input
@@ -91,6 +109,8 @@ export default function Contact() {
             required
           />
         </div>
+
+        {/* email section */}
         <div className="form-group">
           <label>Email Address:</label>
           <input
@@ -101,6 +121,8 @@ export default function Contact() {
             required
           />
         </div>
+
+        {/* message section */}
         <div className="form-group">
           <label>Message:</label>
           <textarea
@@ -110,10 +132,13 @@ export default function Contact() {
             onChange={handleChange}
           ></textarea>
         </div>
+
+        {/* submit button */}
         <button type="submit" className="submit-button">
           Submit
         </button>
       </form>
+
     </div>
   );
 }

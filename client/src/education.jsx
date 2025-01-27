@@ -10,6 +10,7 @@ import "./education.css";
 
 export default function Education() {
     
+  // my education information object
   const educations = [
     {
       school: "Centennial College",
@@ -44,8 +45,14 @@ export default function Education() {
   ];
 
   return (
+
+    // main education body
     <div className="education-container">
+
+      {/* education group section */}
       {educations.map((edu, i) => (
+
+        // education item section
         <div className="education-item" key={i}>
           <h2 className="education-degree">{edu.degree}</h2>
           <p className="education-timeline">{edu.timeline}</p>
@@ -58,7 +65,9 @@ export default function Education() {
             ))}
           </ul>
         </div>
+
       ))}
+
     </div>
   );
 }

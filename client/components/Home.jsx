@@ -8,6 +8,8 @@
 import "./Home.css";
 
 export default function Home() {
+
+  // home content object
   const homeContent = {
     welcomeMessage: {
       title: "Hi, I’m Po-Kai (Brian) Chao!",
@@ -20,6 +22,7 @@ export default function Home() {
     },
   };
 
+  // button links to other pages
   const buttonLinks = [
     { path: "/about", label: "About Me" },
     { path: "/education", label: "Education" },
@@ -29,7 +32,11 @@ export default function Home() {
   ];
 
   return (
+
+    // main body of the home page
     <div className="home-container">
+
+      {/* button section*/}
       <div className="home-buttons">
         {buttonLinks.map((button, index) => (
           <a key={index} href={button.path}>
@@ -37,11 +44,14 @@ export default function Home() {
           </a>
         ))}
       </div>      
+
+      {/* welcome message section and mission statement section */}
       <div className="home-content">
         <h1>{homeContent.welcomeMessage.title}</h1>
         <p>{homeContent.welcomeMessage.description}</p>
         <p>{homeContent.missionStatement.description}</p>
-      </div>      
+      </div>
+            
     </div>
   );
 }

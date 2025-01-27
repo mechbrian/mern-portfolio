@@ -12,11 +12,15 @@ import "./Layout.css";
 export default function Layout() {
   return (
     <header className="layout-header">
+
+      {/* Logo Section */}
       <div className="logo">
         <Link to="/">
           <img src="../src/assets/logo.png" alt="logo" />
         </Link>
       </div>
+
+      {/* Navigation Section */}
       <nav className="navigation">
         <Link to="/" className="nav-button">
           Home
@@ -42,8 +46,11 @@ export default function Layout() {
           Contact Me
         </Link>
       </nav>
+
+      {/* divider line */}
       <br />
       <hr />
+      
     </header>
   );
 }

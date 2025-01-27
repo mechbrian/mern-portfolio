@@ -12,6 +12,8 @@ import img02 from "./assets/proj02.png";
 import img03 from "./assets/proj03.png";
 
 export default function Project() {
+
+  // project data oject
   const projects = [
     {
       title: "Project Management System",
@@ -34,20 +36,33 @@ export default function Project() {
   ];
 
   return (
+
+    // main project body
     <div className="projects-container">
+
+      {/* project group section */}
       <div className="projects-grid">
         {projects.map((project, index) => (
+
+          // project item section
           <div className={`project-item`} key={index}>
+
+            {/* project description section */}
             <div className="project-description">
               <h2 className="project-title">{project.title}</h2>
               <p className="project-text">{project.description}</p>
             </div>
+
+            {/* project image section */}
             <div className="project-image">
               <img src={project.img} alt={project.title} />
             </div>
+
           </div>
+
         ))}
       </div>
+      
     </div>
   );
 }

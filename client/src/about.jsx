@@ -11,6 +11,8 @@ import mePhoto from "./assets/me.png";
 import resumePath from "./assets/Resume_PoKaiChao.pdf";
 
 export default function About() {
+
+  // introduction data object
   const introduction = {
     name: "po-kai chao",
     title: "Software Developer",
@@ -21,11 +23,16 @@ export default function About() {
   };
 
   return (
+
+    // main body of the about page
     <div className="about-container">
+
+      {/* photo section */}
       <div className="about-photo">
         <img src={introduction.img} alt={"my-photo"} />
       </div>
 
+      {/* details section */}
       <div className="about-details">
         <h2 className="about-title">{introduction.title}</h2>
         <p className="about-content">{introduction.content}</p>
@@ -38,6 +45,7 @@ export default function About() {
           My Resume (PDF)
         </a>
       </div>
+
     </div>
   );
 }
